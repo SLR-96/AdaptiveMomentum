@@ -16,13 +16,20 @@ After training, the accuracy of the network by evaluation on the test data was 8
 In addition to a better accuracy compared to the fixed momentum, the proposed algorithm showed less oscilation of loss and accuracy during training as well. In order to compare these oscillations, the following figures demonstrate the cahnges of loss and accuracy values for the two tested methods of training.
 
 ![image](https://user-images.githubusercontent.com/65850584/224510182-28cbc670-a97f-463d-956c-e32e702af94c.png)
+
 Changes of accuracy in the training and validation data by using the adaptive momentum
 
+
 ![image](https://user-images.githubusercontent.com/65850584/224510212-a5044ecb-51fc-4c3d-b0db-1a3b5da6d579.png)
+
 Changes of accuracy in the training and validation data by using a constant momentum
 
+
 ![image](https://user-images.githubusercontent.com/65850584/224510231-8ca3143b-f5da-43a5-9af0-1c749dc3068b.png)
+
 Changes of loss in the training and validation data by using the adaptive momentum
 
+
 ![image](https://user-images.githubusercontent.com/65850584/224510244-53a1f8e6-ffe4-4ebb-ba9a-dcd708ad1d98.png)
+
 Changes of loss in the training and validation data by using a constant momentum
